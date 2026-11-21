@@ -1,0 +1,66 @@
+body {background-color: #080d1b;color: white;
+    font-family: Arial, sans-serif;text-align: center;
+    padding: 50px}
+.my-button:hover {background-color: #10182b;
+    color: white}
+.my-button {background-color: #031743;
+    color: rgb(222, 120, 4);padding: 12px 25px;
+    border: none;border-radius: 0px;font-size: 25px;
+    cursor: pointer;display: block;margin: 30px auto 0}
+h1{font-size:100px;color:#ff8902;text-align:center;
+    font-weight:bold;margin-bottom:25px}
+h2{font-size:50px;color:#f7c605;text-align:center;
+    font-weight:bold;margin-bottom:50px}
+p{font-size:25px;color:#ffffff;text-align:center;
+    line-height:1.5;max-width:1000px;margin:0 auto;
+    padding:0 25px}
+.content-section {padding: 100px 80px;
+    text-align: center;background-color: #10182b;
+    margin-top: 300px;border-radius: 85px}
+.content-section h2 {color: #f7c605;font-size:60px}
+.content-section h3 {color: #f7c605;font-size: 60px}
+.content-section h4 {color: #f7c605;font-size: 60px}
+.content-section p {color: white;font-size: 25px;
+    align-items: center}
+.navbar {display: flex;justify-content: space-between;
+    align-items: center;padding: 15px 50px;
+    background-color: #10182b}
+.navbar ul {display: flex;flex-direction: row;
+    list-style: none;gap: 30px;margin: 0;padding: 0}
+.navbar a {color: rgb(249, 248, 246);
+    text-decoration: none;font-size: 18px}
+.navbar a:hover {color: #f7c605}
+body {margin: 0;background-color: #10182b}
+.welcome-section {background-color: #10182b;
+    padding: 40px 20px}
+.content-section {background-color: #10182b;
+    padding: 60px 30px}
+.card-container {display: flex;justify-content: center;
+    align-items: stretch;gap: 25px;flex-wrap: wrap;
+    max-width: 1100px;margin: 0 auto}
+.info-card {background-color: #111B30;color: white;
+    width:330px;padding: 30px 20px;border-radius: 0px;
+    border: 1px solid #000408;text-align: center;
+    justify-content: center;box-sizing: border-box;
+    transition: transform 0.3s ease}
+.info-card h3 {color: #38BDF8;font-size: 30px;
+    margin-bottom: 15px}
+.info-card p {color: #CBD5E1;font-size:20px;
+    line-height: 1.6}
+.info-card:hover {transform: translateY(-8px);
+    border-color: #38BDF8}
+.photo-gallery {display: grid;
+    grid-template-columns: repeat(2, 1fr);gap: 55px;
+    max-width: 1000px;margin: 30px auto 60px}
+.photo-gallery img {width: 100%;height: 280px;
+    object-fit: cover;border-radius: 0px;
+    border: 1px solid #000408;
+    transition: transform 0.3s ease}
+.photo-gallery img:hover {transform: scale(1.03);
+    border-color: #38BDF8}
+@media (max-width: 768px) {.photo-gallery {
+        grid-template-columns: 1fr}}
+.social-links a {font-size: 28px;color: #38BDF8;
+    text-decoration: none;display: inline-block;
+    margin-bottom: 15px}
+.social-links a:hover {color: #85e5fb}
