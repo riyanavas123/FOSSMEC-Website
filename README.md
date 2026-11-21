@@ -1,7 +1,8 @@
 # FOSSMEC-Website
 This website is designed to introduce FOSSMEC, showcase its vision and community, and highlight its workshops, competitions, and other activities. It serves as a platform for students to explore open-source technologies, learn new skills, and participate in collaborative projects.
 
-Technologies Used are HTML5 and CSS3.
+## Technologies Used
+HTML5 and CSS3.
 
 ## Setup Instructions
 1. Clone the repository or download it as a ZIP file.
